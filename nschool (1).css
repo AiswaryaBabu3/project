@@ -1,0 +1,207 @@
+.body{
+    height: 1000px;
+    text-transform: capitalize;
+}
+.index{
+    background-color: rgb(0, 4, 255);
+}
+.i{
+    width: 20%;
+    float: left;
+    border-right: 1px solid  black;
+    margin-right: 10px;
+}
+.topright{
+    width: 45%;
+    float: right;
+}
+
+.homeright{
+    width: 50%;
+    float: right;
+}
+.menus{
+    text-decoration: none;
+    color: gray;
+    font-size: medium;
+}
+.menus:hover{
+    color: orangered;
+}
+.logo{
+    height: 60px;
+    width: 10%;
+    float: left;
+}
+.n{
+    width: 100%;
+    height: 60%;
+    color: #f27330;
+    font-size:30px;
+    font-weight: 500;
+}
+.academy{
+    width: 100%;
+    height: 40%;
+    color: #19467e;
+    font-size: medium;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+.content{
+    height: 350px;
+    width: 40%;
+    float: left;
+    margin-top: 100px;
+    margin-left: -100px;
+    color: #19467e;
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+.homeimage{
+    margin-top: 100px; 
+    background-image: url(Full-Stack-Developer.png);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 300px; 
+    position: relative; 
+    width: 55%; 
+    float: right;
+}
+.form{
+    padding: 10px; 
+    width: 30%; 
+    box-shadow: -10px -10px 5px #d1d0d0; 
+    position: absolute; 
+    margin-left: 60%; 
+    margin-top: 200px;
+    background-color: white;
+    display: none;
+}
+.span1{
+    color: #f27330;
+}
+.span2{
+    color:#f27330;
+    font-size: 39px;
+    font-weight: bold;
+}
+.span3{
+    color: gray;
+    font-size: medium;
+    margin-top: 5px;
+    line-height: -5%;
+}
+.rotatediv{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    margin-top: 285px;
+    margin-left: 83%;
+    transform: rotate(-90deg);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    background-color: #f27330;
+    cursor: pointer;
+}
+.partners{
+    height: 300px;
+    float: left;
+    margin-top: 180px;
+    text-align: center;
+    color: gray;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+.course{
+    height: 1200px;
+    float: left;
+    color: grey;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+.box{
+    height: 350px;
+    width: 47%;
+    float: left;
+    margin: 10% 10px 10px 0;
+    background-color: rgb(235, 242, 248);
+}
+.circle{
+    height: 100px;
+    background-color: white;
+    width: 100px;
+    margin-top: 16%;
+    margin-left: 30px;
+    border-radius: 50%;
+    animation: mymove 10s infinite;
+}
+@keyframes mymove{
+    100% {transform: rotate(360deg);}
+}
+.innerbox{
+    height: 80%;
+    width: 65%;
+    float: right;
+    margin-right: 30px;
+    margin-top: -150px;
+    color: black;
+    text-align: left;
+    font-size: small;
+    letter-spacing: 1.5px;
+}
+.options{
+    border: 1px solid rgb(65, 170, 255);
+    background-color: rgb(178, 227, 240);
+    padding-right: 20px;
+    padding-left: 20px;
+    float: left;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.options:hover{
+    background-color: rgb(65, 170, 255);
+}
+.bluesec{
+    background-color:#19467e;
+    height: 400px;
+    float: left;
+    width: 100%;
+    color: white;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+.coursebox{
+    background-color: rgb(224, 224, 224);
+    color: #19467e;
+    height: 170px;
+    width: 15%;
+    float: left;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+.courseboxh{
+    color: #f27330;
+    margin: 25px 0px;
+}
+.boxword{
+    color: #19467e;
+    margin-top: 30px;
+    letter-spacing: 4px;
+}
