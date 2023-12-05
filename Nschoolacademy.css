@@ -1,0 +1,433 @@
+@media only screen and (max-width:700px){
+    #logos{
+        width: 100%;
+    }
+    #rightlogo{
+        width: 100%;
+    }
+    #menus{
+        width: 100%;
+    }
+    #logo{
+        width: 30%;
+        text-align: center;
+    }
+    #content{
+        width: 100%;
+        margin: 0px;
+        height: 300px;
+    }
+    #homeimage{
+        width: 100%;
+        margin: 0px;
+    }
+    #rotate{
+        margin-left: 370px;
+    }
+    #myform{
+        width: 100%;
+        margin: 0px;
+    }
+    #placement{
+        margin: 20px 0px;
+        height: 500px;
+        text-align: center;
+    }
+    #box{
+        height: 750px;
+        padding-top: 40px;
+        width: 100%;
+    }
+    #circle{
+        margin-left: 100px;
+        margin-top: -10px;
+    }
+    #innerbox{
+        margin-top: 1px;
+        margin-left: 0px;
+    }
+    #blue{
+        height: 1300px;
+    }
+    #blog{
+        height: 1400px;
+    }
+}
+@media only screen and (max-width:900){
+    #logos{
+        width: 45%;
+    }
+    #rightlogo{
+        width: 50%;
+    }
+    #menus{
+        width: 60%;
+    }
+    #logo{
+        width: 30%;
+    }
+    #content{
+        width: 50%;
+    }
+    #homeimage{
+        width: 50%;
+    }
+}
+.logos{
+    height: 50px;
+    width: 25%;
+    float: left;
+}
+.rightlogo{
+    width: 48%;
+    height: 50px;
+    float: right;
+}
+.menus{
+    height: 50px;
+    float: right;
+}
+.menus li{
+    display: inline;
+}
+.menus a{
+    text-decoration: none;
+    color: grey;
+    padding: 10px;
+}
+.menus a:hover{
+    color: #f27330;
+}
+.logo{
+    height: 60px;
+    width: 10%;
+    float: left;
+}
+.n{
+    width: 100%;
+    height: 60%;
+    color: #f27330;
+    font-size:30px;
+    font-weight: 500;
+}
+.academy{
+    width: 100%;
+    height: 40%;
+    color: #19467e;
+    font-size: medium;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.content{
+    height: 350px;
+    width: 40%;
+    float: left;
+    margin-top: 100px;
+    margin-left: -100px;
+    color: #19467e;
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+.homeimage{
+    margin-top: 70px; 
+    background-image: url(./imagess/WhatsApp\ Image\ 2023-12-05\ at\ 3.31.52\ PM.jpeg);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 300px;
+    position: relative; 
+    width: 50%; 
+    float: right;
+}
+.homeimage:hover{
+    border: 1px solid #19467e;
+}
+.form{
+    padding: 10px; 
+    width: 30%; 
+    box-shadow: -10px -10px 5px #d1d0d0; 
+    position: absolute; 
+    margin-left: 60%; 
+    margin-top: 200px;
+    background-color: white;
+    display: none;
+}
+.rotatediv{
+    height: 30px;
+    width: 200px;
+    position: absolute;
+    transform: rotate(-90deg);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    background-color: #f27330;
+    cursor: pointer;
+    margin-top: 85px;
+    margin-left: 440px;
+}
+#images:hover{
+    border: 2px solid #19467e; 
+    cursor: pointer;
+}
+.placement{
+    width: 100%;
+    float: left;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    font-size: small;
+    height: 300px;
+    padding: 50px;
+}
+.course{
+    color: grey;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    float: left;
+    width: 100%;
+    padding: 50px;
+}
+.box{
+    height: 450px;
+    width: 47%;
+    float: left;
+    margin: 10% 10px 10px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -50px;
+    background-image: url(./imagess/WhatsApp\ Image\ 2023-12-05\ at\ 3.31.54\ PM.jpeg);
+}
+.circle{
+    height: 100px;
+    background-image: url(./images/WhatsApp\ Image\ 2023-09-27\ at\ 9.44.04\ PM.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    margin-top: 16%;
+    border-radius: 50%;
+}
+.circle:hover{
+    animation: mymove 10s infinite;
+}
+@keyframes mymove{
+    100% {transform: rotate(360deg);}
+}
+.innerbox{
+    height: 80%;
+    width: 65%;
+    float: right;
+    margin-right: 30px;
+    margin-top: -150px;
+    color: black;
+    text-align: left;
+    font-size: small;
+    letter-spacing: 1.5px;
+}
+.options{
+    border: 1px solid rgb(65, 170, 255);
+    background-color: rgb(178, 227, 240);
+    padding-right: 20px;
+    padding-left: 20px;
+    float: left;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.options:hover{
+    background-color: rgb(65, 170, 255);
+}
+.bluesec{
+    background-color:#19467e;
+    height: 400px;
+    float: left;
+    width: 100%;
+    color: white;
+    text-align: center;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+    padding: 50px;
+}
+.coursebox{
+    background-color: white;
+    color: #19467e;
+    height: 170px;
+    width: 15%;
+    float: left;
+    border-radius: 25px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.coursebox:hover{
+    border:  10px solid #19467e;
+}
+.courseboxh{
+    color: #f27330;
+    margin: 25px 0px;
+}
+.boxword{
+    color: #19467e;
+    margin-top: 30px;
+    letter-spacing: 4px;
+}
+.why{
+    height: 350px;
+    width: 47%;
+    float: left;
+    margin-bottom: 40px;
+}
+.expertise{
+    width: 100%;
+    height: 30%;
+    margin-bottom: 12px;
+}
+.cir{
+    height: 80%;
+    width: 15%;
+    border-radius: 50%;
+    margin: 8px 10px;
+    float: left;
+    background-color: #f27330;
+    background-image: url(./imagess/choose.jpg);
+}
+.whywords{
+    width: 80%;
+    height: 100%;
+    float: right;
+    font-size: small;
+    letter-spacing: 1.5px;
+}
+.carousel{
+    height: 600px;
+    width: 100%;
+    float: left;
+}
+.testleft{
+    background-color: #164988;
+    float: left;
+    height: 500px;
+    width: 35%;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 25px;
+    padding: 30px;
+    color: white;
+}
+.words{
+    height: 70px;
+    width: 63%;
+    float: right;
+    margin-top: 30px;
+}
+.testimonials{
+    height: 300px;
+    width: 37%;
+    float: right;
+    margin-top: 100px;
+    margin-right: 10%;
+    padding: 20px 0px;
+}
+.blue{
+    height: 650px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color:#19467e;
+}
+.carddiv{
+    height: 100%;
+    width: 80%;
+    float: left;
+    margin: 0% 15%;
+}
+.faq{
+    float: left;
+    width: 80%;
+    margin: 0px 10%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    height: 630px;
+}
+.ques{
+    float: right;
+    width: 50%;
+    height: 580px;
+}
+.faqimage{
+    background-color: #19467e;
+    height: 350px;
+    width: 45%;
+    float: left;
+    margin-top: 150px;
+    background-image: url(./imagess/WhatsApp\ Image\ 2023-12-05\ at\ 3.31.55\ PM.jpeg);
+}
+.blog{
+    width: 80%;
+    margin: 0 10%;
+    float: left;
+    text-align: center;
+    padding: 50px 0px;
+}
+.arrow{
+    background-color: white;
+    border: 1px solid #19467e;
+    height: 30px;
+    padding: 1px;
+    float: right;
+    border-radius: 50%;
+    width: 30px;
+    cursor: pointer;
+    font-size: larger;
+    color: #0d2644;
+}
+.address{
+    background-color: #19467e;
+    color: white;
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+}
+.add{
+    width: 80%;
+    margin: 0 10%;
+}
+.add a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+.policy{
+    background-color: #0d2644;
+    color: white;
+    width: 100%;
+    float: left;
+    padding: 50px 0px;
+}
+.policyletter{
+    width: 85%;
+    float: right;
+    margin-top: 15px;
+}
+.terms{
+    height: 50px;
+    width: 35%;
+    float: left;
+    margin-top: 60px;
+}
+.terms a{
+    text-decoration: none;
+    display: inline;
+    margin-left: 10px;
+}
+.terms a:hover{
+    color: #f27330;
+}
+
